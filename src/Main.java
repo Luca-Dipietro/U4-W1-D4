@@ -32,9 +32,11 @@ public class Main {
         System.out.println();
 
         Dipendente[] listaDipendenti = {d1, d2, d3};
-
+        double somma = 0;
         for (Dipendente d : listaDipendenti) {
             System.out.println("Matricola Dipendente: " + d.getMatricola() + ", Stipendio: " + d.calculateSalary());
+            somma += d.calculateSalary();
         }
+        System.out.println("La somma degli stipendi dei dipendenti è " + somma);
     }
 }
