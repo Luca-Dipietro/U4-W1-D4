@@ -1,5 +1,4 @@
-package entities;
-
+import entities.*;
 import enums.TipoDipartimento;
 import interfaces.Timbrare;
 

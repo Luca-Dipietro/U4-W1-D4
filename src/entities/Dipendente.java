@@ -4,7 +4,7 @@ import enums.TipoDipartimento;
 import interfaces.Timbrare;
 
 
-abstract class Dipendente implements Timbrare {
+public abstract class Dipendente implements Timbrare {
     private String matricola;
     private double stipendio;
     private TipoDipartimento dipartimento;
